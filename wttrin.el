@@ -75,6 +75,13 @@
                        (car wttrin-default-cities)))))
   (wttrin-query city))
 
+
+
+(defun wttrinf ()
+  "Display weather information for CITY."
+  (wttrin-query "Beijing"))
+
+
 (provide 'wttrin)
 
 ;;; wttrin.el ends here
