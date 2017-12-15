@@ -76,9 +76,8 @@
   (wttrin-query city))
 
 
-
-(defun wttrinf ()
-  "Display weather information for CITY."
+(defun wttrinDefault ()
+  (interactive)
   (wttrin-query "Beijing"))
 
 
